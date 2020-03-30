@@ -1244,6 +1244,10 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
+		ul.grid-icons > li > p {
+			position: absolute;
+		}
+
 		ul.grid-icons.connected > li:before {
 			content: '';
 			display: block;
