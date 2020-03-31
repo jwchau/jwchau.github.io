@@ -2459,8 +2459,9 @@ input, select, textarea {
 
 				.projects-ul > li {
 					display: flex;
+					margin-bottom: 3em;
 					flex-direction: column;
-					justify-content: center;
+					justify-content: flex-start;
 					align-items: center;
 				}
 
