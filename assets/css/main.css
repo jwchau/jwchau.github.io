@@ -2457,6 +2457,17 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+				.projects-ul > li {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.projects-ul > li > img {
+					width: 100%;
+				}
+
 	dl {
 		margin: 0 0 2em 0;
 	}
@@ -3145,7 +3156,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
-				opacity: 0.7;
+				opacity: 0.8;
 			}
 
 			#header.alt .logo {
