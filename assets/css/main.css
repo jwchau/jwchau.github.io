@@ -3886,3 +3886,7 @@ input, select, textarea {
 		transform: translate(0);
 	}
 }
+
+.shrink-me {
+	width: 60%;
+}
