@@ -21,24 +21,39 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<!-- <span class="logo"><img src="images/bulb.svg" alt="bulb" /></span> -->
-						<span class="logo">
+						<!-- <span class="logo">
 							<object type="image/svg+xml" data="images/bulb.svg">
 								Your browser does not support SVG
 							</object>
-						</span>
+						</span> -->
 						<h1>John Chau</h1>
 						<ul class="icons">
 							<li><a href="https://github.com/jwchau" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
 							<li><a href="https://linkedin.com/in/jwchau" target="_blank" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
 							<li><a href="https://angel.co/u/john-chau-4" target="_blank" class="icon brands fa-angellist alt"><span class="label">Angellist</span></a></li>
+							<li><a id='resume' href="./John_Chau_Resume.pdf" target="_blank">Resume</a></li>
 						</ul>
-						<a id='resume' href="./John_Chau_Resume.pdf" target="_blank">Resume</a>
+						<section id="intro" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<h2>About Me</h2>
+									<p>The Past: I graduated from UC Santa Cruz with BS: Computer Game Design and started as a programmer for a manufacturing company.
+										I really enjoyed the work and wanted to explore what else the industry had to offer. <br><br>
+										The Present: I finished a coding bootcamp, App Academy, and where I built several fullstack web applications with
+										technologies like React.js, Ruby on Rails, MongoDB that can be seen in the projects section.<br><br>
+										The Future: I am currently searching for software engineering positions in the bay area.
+										With my background in fullstack development and game design I am confident I can work well in a team while pushing out production quality software.
+									</p>
+								</div>
+								<span class="image"><img src="face.png" alt="face" /></span>
+							</div>
+						</section>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#header" class="active">John Chau</a></li>
 							<li><a href="#first">Skills</a></li>
 							<li><a href="#second">Projects</a></li>
 							<li><a href="#cta">Contact</a></li>
@@ -48,27 +63,7 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>About Me</h2>
-										</header>
-										<p>The Past: I graduated from UC Santa Cruz with BS: Computer Game Design and started as a programmer for a manufacturing company.
-											I really enjoyed the work and wanted to explore what else the industry had to offer. <br><br>
-											The Present: I finished a coding bootcamp, App Academy, and where I built several fullstack web applications with
-											technologies like React.js, Ruby on Rails, MongoDB that can be seen in the projects section.<br><br>
-											The Future: I am currently searching for software engineering positions in the bay area.
-											With my background in fullstack development and game design I am confident I can work well in a team while pushing out production quality software.
-										</p>
-										<!-- <ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul> -->
-									</div>
-									<span class="image"><img src="face.png" alt="face" /></span>
-								</div>
-							</section>
+						
 
 						<!-- First Section -->
 							<section id="first" class="main special">
@@ -124,10 +119,6 @@
 										<p>Linux</p>
 										<img src="images/icons/linux.svg" alt="linux.svg">
 									</li>
-									<li>
-										<p>Slack</p>
-										<img src="images/icons/slack.svg" alt="slack.svg">
-									</li>
 								</ul>
 							</section>
 
@@ -136,10 +127,9 @@
 								<header class="major">
 									<h2>Projects</h2>
 								</header>
-								<ul class='alt projects-ul'>
-									<li>
+									<div class="mySlides">
 										<h2>IMDB Clone</h2>
-										<img className='shrink-me' src="images/imdb.png" alt="imdb">
+										<img class='slide-image' className='slide-image' src="images/imdb.png" alt='imdb'>
 										<p>Clone of the Internet Movie Database website aka imdb.com <br>
 											Made with React / Redux / Rails / Postgresql / Amazon Web Services Simple Cloud Storage
 										</p>
@@ -147,11 +137,10 @@
 											<a href="http://mi-imdb.herokuapp.com/" class="button">Live</a>
 											<a href="https://github.com/jwchau/imdb-clone" class="button">Github</a>
 										</div>
-										
-									</li>
-									<li>
+									</div>
+									<div class="mySlides" alt='wcw'>
 										<h2>Watchu Want?</h2>
-										<img src="images/wcw.png" alt="wcw">
+										<img class='slide-image' src="images/wcw.png">
 										<p>Web App that picks restaurants based on user inputted preferences <br>
 											Made with React / Redux / MongoDB / Express / Yelp API / Google Maps API
 										</p>
@@ -159,11 +148,10 @@
 											<a href="http://watchuwant.herokuapp.com/" class="button">Live</a>
 											<a href="https://github.com/jwchau/WatchuWant" class="button">Github</a>
 										</div>
-										
-									</li>
-									<li>
+									</div>
+									<div class="mySlides" alt='wcw'>
 										<h2>Say Again?</h2>
-										<img src="images/sayagain.png" alt="sayagain">
+										<img class='slide-image' src="images/sayagain.png">
 										<p>Social Interaction Simulation Game <br>
 											Made with C# and SFML Rendering Framework
 										</p>
@@ -171,10 +159,10 @@
 											<a href="https://teambabblefish.itch.io/say-again" class="button">Download</a>
 											<a href="https://github.com/jwchau/SayAgain" class="button">Github</a>
 										</div>
-									</li>
-									<li>
+									</div>
+									<div class="mySlides">
 										<h2>Dance Music Dance</h2>
-										<img src="images/dmd.png" alt="dmd">
+										<img class='slide-image' src="images/dmd.png" alt='dmd'>
 										<p>Analyze Music and Generate Visuals based off analysis <br>
 											Made with p5.js library
 										</p>
@@ -182,8 +170,10 @@
 											<a href="https://jwchau.github.io/DanceMusicDance" class="button">Live</a>
 											<a href="https://github.com/jwchau/DanceMusicDance" class="button">Github</a>
 										</div>
-									</li>
-								</ul>
+									</div>
+									<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+									<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
 							</section>
 
 						<!-- Get Started -->
@@ -198,8 +188,8 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<h2>Contact Information</h2>
+						<section id='cta'>
+							<h2>Information</h2>
 							<p>For the quickest response time contact me via email, telephone or LinkedIn<br><br>
 							Feel free to browse my other social medias to see what else I have going on in my life.
 							</p>
@@ -235,6 +225,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script defer src="assets/js/john.js"></script>
 
 	</body>
 </html>
