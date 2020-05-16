@@ -3137,7 +3137,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		height: 50em;
+		/* height: 50em; */
 		/* padding: 5em 5em 1em 5em ; */
 		text-align: center;
 		display: flex;
@@ -3903,3 +3903,4 @@ input, select, textarea {
 	height: 480px;
 	object-fit: cover;
 }
+
