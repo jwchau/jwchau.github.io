@@ -158,7 +158,7 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.9);
+		color: #ffffff;
 		text-shadow: 0px 0px 50px black;
 	}
 
@@ -249,23 +249,23 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.25em;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.75em;
 	}
 
 	@media screen and (max-width: 736px) {
