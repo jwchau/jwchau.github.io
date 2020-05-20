@@ -181,7 +181,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3415,20 +3414,23 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: rgba(128, 128, 128, 0.747);
+						color: white;
 					}
 
 					#nav ul li a.active {
-						background-color: rgba(128, 128, 128, 1);
+						/* background-color: rgb(104, 104, 104); */
+						background-color: white;
 						box-shadow: none;
-						color: white;
+						color: black;
 					}
 
 		#nav.alt {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(255, 255, 255, 0.8);
+			/* background-color: rgba(255, 255, 255, 0.8); */
+			background-color: black;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
